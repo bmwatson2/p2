@@ -12,20 +12,19 @@
 // Author5: Mason Gomm, Mgomm@wisc.edu, mgomm, lec001
 // Author6: Jonas Klare, klare@wisc.edu, klare, Lec001
 //
-
 //
 // ---------------- OTHER ASSISTANCE CREDITS 
 // Persons: N/A
 // 
 // Online sources: N/A
 //////////////////////////// 80 columns wide //////////////////////////////////
+
 /**
  * JobList is a data structure that stores Jobs, allowing them to be
  * removed, have more Jobs added, and also retrieve Jobs. 
  *
  * <p>Bugs N/A
  *
- * @author Zexing Li (Richard)
  */
 
 public class JobList implements ListADT<Job> {
