@@ -20,6 +20,9 @@
 //////////////////////////// 80 columns wide //////////////////////////////////
 import java.util.Iterator;
 
+/**
+ *
+ */
 public class Game{
 
     /**
