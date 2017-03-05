@@ -112,6 +112,11 @@ public class Game{
         if (this.timeToPlay < item.getTimeUnits()) {
         	this.timeToPlay = 0;
         }
+        else if (pos == 0 && this.list.size() == 0)
+        {
+        	this.list.add(pos + 1, item);
+        	this.createJobs();
+        }
         else if (pos < 0 || pos >= this.list.size())
         {
         	this.list.add(item);
