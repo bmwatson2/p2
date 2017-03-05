@@ -174,11 +174,9 @@ public class Game{
         if(tmp.isCompleted()) {
         	this.scoreBoard.updateScoreBoard(tmp);
         	this.createJobs();
-        	return tmp;
         }
-        else {
         	return tmp;
-        }
+       
     }
 
     /**
