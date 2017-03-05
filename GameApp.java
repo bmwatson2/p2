@@ -13,7 +13,6 @@
 // Author5: Mason Gomm, Mgomm@wisc.edu, mgomm, lec001
 // Author6: Jonas Klare, klare@wisc.edu, klare, Lec001
 //
-
 //
 // ---------------- OTHER ASSISTANCE CREDITS 
 // Persons: N/a
@@ -31,12 +30,23 @@
 
 import java.util.Scanner;
 
+/**
+ *
+ */
 public class GameApp{
     /**
      * Scanner instance for reading input from console
      */
     private static final Scanner STDIN = new Scanner(System.in);
+	
+    /**
+     *
+     */
     private Game game;
+	
+    /**
+     *
+     */
     private boolean firstPass;
 
     /**
