@@ -164,7 +164,11 @@ public class GameApp{
 
     			//Determine and deduct the time penalty accrued.
     			int timePenalty;
-    			if (jobIndex == -1 || jobIndex > this.game.getNumberOfJobs() - 1)
+    			if (this.game.getNumberOfJobs() == 0 && jobIndex != -1)
+    			{
+    				timePenalty = jobIndex;
+    			}
+    			else if (jobIndex == -1 || jobIndex > this.game.getNumberOfJobs() - 1)
     			{
     				timePenalty = this.game.getNumberOfJobs();
     			}
