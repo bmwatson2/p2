@@ -114,7 +114,7 @@ public class Game{
         }
         else if (pos == 0 && this.list.size() == 0)
         {
-        	this.list.add(pos + 1, item);
+        	this.list.add(item);
         	this.createJobs();
         }
         else if (pos < 0 || pos >= this.list.size())
