@@ -21,7 +21,6 @@
 
 /**
  * Iterate through JobList
- * @author Zexing
  *
  */
 public class JobListIterator implements java.util.Iterator<Job> {   
