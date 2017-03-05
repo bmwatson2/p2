@@ -53,8 +53,8 @@ o Task 1: Assign Code Letters for each Team Member
             z = Zexing Li
             m = Mason Gomm
             j = Jonas Klare
-              =
-              =
+            d = Joshua DuBois
+            c = Changhao Sun
               =
               
 +zb Task 2: Define the JobList class so that it implements the ListADT
@@ -113,28 +113,27 @@ o Task 1: Assign Code Letters for each Team Member
 +m Task 7: Complete the Game class implementation by completing the
   TODO tags.
   
-+j Task 8: Re-read the assignment and map out the actions that must
++jb Task 8: Re-read the assignment and map out the actions that must
   happen in the GameApp (main) class.  There is much to do here and
   it may be much more convenient to write methods and call them 
   from the main method.
-  (WORKED ON BY J A SECOND PERSON TO LOOK AT THIS WOULD BE NICE)
   
-+j Task 9: Implement the GameApp class incrementally.  
++jb Task 9: Implement the GameApp class incrementally.  
   Compile and run after each of these items
-  -j main: get the command line arguments (use the getIntegerInput method)
-  -j Add the Welcome message as output
-  -j main: construct a Game instance with the command line values
-    -j Try calling Game methods to see if Game was constructed
+  +jb main: get the command line arguments (use the getIntegerInput method)
+  +j Add the Welcome message as output
+  +j main: construct a Game instance with the command line values
+    +j Try calling Game methods to see if Game was constructed
       and initialized correctly.
       
-ob Task 10: Define a main_menu_loop() method: 
++b Task 10: Define a main_menu_loop() method: 
   Put code for one iteration of game play
-  - Get the outputs to display in the right order
-  - Add a call to this method from the main method
-  - Get input value and echo to screen
-  - output the job list
+  +b Get the outputs to display in the right order
+  +b Add a call to this method from the main method
+  +b Get input value and echo to screen
+  +b output the job list
   
-- Task 11: Overall Debugging, Output Testing
++bdc Task 11: Overall Debugging, Output Testing
 
 - ADD MORE SUB-TASKS TO ANY OF THE ABOVE TASKS
 
