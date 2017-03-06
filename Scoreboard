@@ -29,7 +29,10 @@
 import java.util.Iterator;
 
 /**
- *
+ *This class implements the ScoreboardADT and contains a single ListADT<Job> 
+ *that contains only jobs that have been fully completed. 
+ *Jobs should only be added in at the end of this list, there also exists a method for 
+ *printing out the current status of the Scoreboard object
  */
 public class Scoreboard implements ScoreboardADT
 {
