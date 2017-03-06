@@ -20,10 +20,9 @@
 //////////////////////////// 80 columns wide //////////////////////////////////
 
 /**
- * JobList is a data structure that stores Jobs, allowing them to be
- * removed, have more Jobs added, and also retrieve Jobs. 
- *
- * <p>Bugs N/A
+ *This class stores all currently active jobs. 
+ *It implements ListADT<Job> interface as presenting in the readings and lecture notes. 
+ *Note: The get and remove methods throw the IndexOutOfBoundsException if the specified pos is invalid
  *
  */
 
