@@ -31,7 +31,9 @@
 import java.util.Scanner;
 
 /**
- *
+ *This is the main class that starts the program execution and starts the main program loop. 
+ *It takes two command line arguments, a seed for the random number generator and a positive integer indicating the duration. 
+ *If either entry is not a positive integer the program should simply terminate
  */
 public class GameApp{
     /**
