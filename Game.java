@@ -21,7 +21,12 @@
 import java.util.Iterator;
 
 /**
+ *The Game class is responsible for maintaining the active list of jobs and utilizes 
+ *the JobSimulator class to create new jobs to be added to the end of the job listing. 
+ *Functionality must also be present allowing for addition of jobs to the list, and updating 
+ *individual jobs, in addition to the standard setters and getters.
  *
+ * 
  */
 public class Game{
 
